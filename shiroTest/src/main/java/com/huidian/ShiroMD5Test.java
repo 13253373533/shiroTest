@@ -27,4 +27,8 @@ public class ShiroMD5Test {
         boolean authenticated = subject.isAuthenticated();
         System.out.println("是否通过"+authenticated);
     }
+    @Test
+    public void shrioTest01(){
+        System.out.println(111);
+    }
 }
